@@ -1,0 +1,6 @@
+com\x14n\web\controller\common\CaptchaController.class
+com\x14n\X14nApplication.class
+com\x14n\web\controller\system\SysUserController.class
+com\x14n\web\controller\system\SysLoginController.class
+com\x14n\web\controller\system\SysRoleController.class
+com\x14n\web\config\Knife4jConfiguration.class

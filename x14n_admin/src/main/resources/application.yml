@@ -1,0 +1,77 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.164.33:3306/ry_vue?characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: 192.168.164.33
+    port: 6379
+    database: 0
+    password:
+    timeout: 10s
+    lettuce:
+      pool:
+        min-idle: 0
+        max-idle: 8
+        max-active: 8
+        max-wait: -1ms
+
+mybatis:
+  type-aliases-package: com.x14n.**.domain
+  mapperLocations: classpath*:mapper/**/*Mapper.xml
+
+logging:
+  level:
+    com.x14n: debug
+    org.springframework: warn
+
+swagger:
+  enable: true
+  pathMapping: /dev-api
+
+x14n:
+  name: X14n
+  version: 3.0.0
+  copyrightYear: 2022
+  demoEnabled: true
+  profile: D:/2 -- development/project/ideaProject/web/X14n_vue_master/uploadPath
+  addressEnabled: false
+  captchaType: math
+
+token:
+  header: Authorization
+  secret: abcdefghijklmnopqrstuvwxyz
+  expireTime: 30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
